@@ -1,0 +1,16 @@
+.drink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+    background-color: #B6CBBD;
+}
+.card{
+    background-color: #F8E1B7;
+    color: #754E1A;
+}
+h1{
+    color: #754E1A !important;
+}
