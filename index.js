@@ -18,6 +18,7 @@ app.get("/", async (req, res) => {
             ingredients: [result.data.drinks[0].strIngredient1, result.data.drinks[0].strIngredient2, result.data.drinks[0].strIngredient3, result.data.drinks[0].strIngredient4, result.data.drinks[0].strIngredient5, result.data.drinks[0].strIngredient6, result.data.drinks[0].strIngredient7, result.data.drinks[0].strIngredient8, result.data.drinks[0].strIngredient9, result.data.drinks[0].strIngredient10],
         });
     } catch (error) {
+        console.error("Error fetching drink:", error.message);
         res.render("index.ejs",);
     }
 });
