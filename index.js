@@ -3,7 +3,6 @@ import express from "express";
 
 const app = express();
 const port = 3000;
-//const baseURL = "www.thecocktaildb.com/api/json/v1/1";
 
 app.use(express.static("public"));
 
